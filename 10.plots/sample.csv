@@ -1,0 +1,7 @@
+gender,subject,marks,cgpa,date,sales,profit,region
+M,maths,50,7.3,1/6/25,100,30,east
+M,maths,60,7.9,2/6/25,150,55,east
+M,phy,90,8.4,3/6/25,20,100,east
+F,maths,80,9,1/7/25,40,-20,east
+F,phy,70,8,2/7/25,60,10,east
+,,,,2/7/25,50,-30,west
