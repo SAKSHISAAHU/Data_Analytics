@@ -1,4 +1,12 @@
-## **data modeling**
+# **Data Analysis in PowerBI**
+
+## **1.extract data**
+- can load data using "get data" option in power BI desktop from there to what ever sourse you wanna load data, you can choose and load.
+
+## **2.Data understanding**
+-  understanding each and every column is done in Table view.
+
+## **3.data modeling**
 - in power BI database schema is called data modeling, which can be seen by model view.
 
 - when we load data which is stored in multiple tables from, 
@@ -9,7 +17,7 @@
     - then click on 'new relationship', then fill all the details to which table's column to which should connect and choose cardinality also.
 
 
-## **Data exploration**
+## **4.Data exploration**
 - we do data exploration in power BI's power query window's view section, where we have to check the box of **column quantity, distribution and profile**.
 
 - Column distribution : 
@@ -25,7 +33,7 @@
     - values like '1' comes under error value.
 
 
-## **Data transformation**
+## **5.Data transformation**
 - Combining different tables,
     - combining comes under transform_data's power query editor window.
     - there is seperate area for combining, merge/join and concat/append which lie under combine section of the bar.
@@ -59,4 +67,7 @@
         - it will combine or do union tables, when they have same column_name and same number of columns.
         - same we do python as, **pd.concat([list_of_dataframe])**
         
-## **which ever table have relation in database schema that only will able to get combine to do data analysis.**
+    - **which ever table have relation in database schema that only will able to get combine to do data analysis.**
+
+## **6.Data cleaning**
+
