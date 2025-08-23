@@ -70,13 +70,14 @@
 5. *unimportant column*
     - on column name right click then choose delete.
 
+
 ### **Pivot table**
 - It is same as,
     - crosstab & groupby in pandas
     - table & matrix in PowerBI
 - applied on the clean data.
 
-- First we have to select the table which we want to pivot then, on 'Insert Tab' select 'Pivot Table' then under that click on 'new worksheet' then the pivot table will be created on the new worksheet.
+- First we have to select the table (by selecting any value and doing cntrl + A) which we want to pivot then, on 'Insert Tab' select 'Pivot Table' then under that click on 'new worksheet' then the pivot table will be created on the new worksheet.
 
 - In the pivot table,
     - whcih ever column we want as the row we drag that column to the 'row labels'. E.g - Region
@@ -169,5 +170,34 @@
     3. averageif()
     4. if()
 
+### **Data Tansformation**
+1. **vlookup()**
+    - It is used to add/join one column from one table to another table with reference to one common column between them.
+    - syntax, **vlookup(lookup_value, table_array, col_index_no., match_mode)**
+
+        - lookup_value = value that we want to look in another table.
+        - table_array = whole table where you want to look that value.
+        - col_index_no. = if lookup value matches which numbered column you want join.
+        - match_mode = either 'True' or 'False'
+            - True means approx match of lookup value 
+            - False means exact match of lookup value.
+            - E.g - if lookup value is S001, then True means S01 and False means S001
+    - we have to lock the 'table_array' using F4 key because when we drag the resulted vlookup cell from remaining cell then according to the vlookup function arguments, lookup value needs to be increase not the whole col where lookup value supposed to be looked.
+    - there is one limitation with vlookup(),
+        - it will only work when whatever value we are looking of one table should be present in first column of another table.
+
+2. **xlookup()**
+- To overcome the limitation of vlookup(), we use xlookup()
+- syntax, **xlookup(lookup_value, lookup_range, result_range, missing_value, match_mode)**
+    - lookup_value = value that we want to look in another table.
+    - lookup_range = lookup_value's value's column
+    - result_range = if lookup value matches which column you want join.
+    - missing_value = if there are gonna have any missing value what you wanna see instead of blank.
+    - match mode = same as vlookup()
+- we have to lock 'lookup_range' and 'result_range'
+
 ### **Data Visulisation**
 - For creating plots we always require 'pivot table' first, because they do summarization for column that are required for plots.
+- Then from 'insert tab' we choose plots for that specific pivort table and apply formating on plot.
+
+
