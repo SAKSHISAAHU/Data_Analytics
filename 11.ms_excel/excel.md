@@ -33,6 +33,11 @@
 6. *wrong data type*
     - there is no concept of data type in excel.
 
+7. *duplicate records*
+    - Select your data range, then go to Data tab click on Remove Duplicates and select the columns you want to check.
+    
+8. *outliers*
+
 ### **Functions for data exploration**
 1. count() -- only count the column which contains numbers
 2. counta() -- count the no. of cells that are not empty
