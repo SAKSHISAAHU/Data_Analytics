@@ -18,19 +18,25 @@
 
 
 ## **4.Data exploration**
-- we do data exploration in power BI's power query window's view section, where we have to check the box of **column quantity, distribution and profile**.
+- **1. For unique value & value count & missing value :-**
+    - we do data exploration in power BI's power query window's view section, where we have to check the box of **column quantity, distribution and profile**.
 
-- Column distribution : 
-    - tells how many unique value are there.
+        - Column distribution : 
+            - tells how many unique value are there.
 
-- Column profile :
-    - it is equal to **df[ ].describe** in python.
-    - it will tell total count, total error value, total empty value, total distinct, total unique, empty string, min and max values.
-    - for categorical column, by clicking the arrow after the column_name can also show the total no. of unique value.
+        - Column profile :
+            - it is equal to **df[ ].describe** in python.
+            - it will tell total count, total error value, total empty value, total distinct, total unique, empty string, min and max values.
+            - for categorical column, by clicking the arrow after the column_name can also show the total no. of unique value.
 
-- Column quantity :
-    - it tell the percent of valid value (other than error value), error and empty value (or missing value)
-    - values like '1' comes under error value.
+        - Column quantity :
+            - it tell the percent of valid value (other than error value), error and empty value (or missing value)
+            - values like '1' comes under error value.
+
+- **2. For wrong data :-**
+- **3. For wrong datatype :-**
+_ **4. For duplicate record :-**
+- **5. For outliers :-**
 
 
 ## **5.Data transformation**
