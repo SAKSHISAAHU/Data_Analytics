@@ -35,7 +35,7 @@
 
 - **2. For wrong data :-**
 - **3. For wrong datatype :-**
-_ **4. For duplicate record :-**
+- **4. For duplicate record :-**
 - **5. For outliers :-**
 
 
@@ -76,4 +76,5 @@ _ **4. For duplicate record :-**
     - **which ever table have relation in database schema that only will able to get combine to do data analysis.**
 
 ## **6.Data cleaning**
+- **1. wrong data**
 

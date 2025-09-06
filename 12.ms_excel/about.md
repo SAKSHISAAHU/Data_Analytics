@@ -1,4 +1,5 @@
 # **Excel**
+
 - It is mainly used for data storage.
 - To create a table in excel, atleast one column or record is required without that it is not possible.
 - The cell nomenclusture is done using "column + row" and each cells have values inside them.
@@ -11,7 +12,7 @@
     - **"alignment section"** is used for modifying the cell's size, alignment and value's position.
     - **"style section"** is used for conditional formating mean based upon condition highlighting  the cell.
 
-### **Data exploration**
+## **Data exploration**
 1. *renaming column*
     - any column name is wrong, we rename it just by double clicking on that cell.
 
@@ -37,6 +38,9 @@
     - Select your data range, then go to Data tab click on Remove Duplicates and select the columns you want to check.
     
 8. *outliers*
+    - In a column to find outliers,
+        - first sort that column in acending to find the smallest outlier if present.
+        - then sort that column in decending to find the lagest outlier if present.
 
 ### **Functions for data exploration**
 1. count() -- only count the column which contains numbers
@@ -52,7 +56,7 @@
 11. stdevp() -- calculate population std dev
 12. percentile(range,k) -- k= 0.25, 0.50, 0.75, 1 
 
-### **Data cleaning**
+## **Data cleaning**
 1. *wrong data*
     - to fill with different values,
         - first extract the cells or records where values are suppose to be fill then manually fill the values.
@@ -76,7 +80,7 @@
     - on column name right click then choose delete.
 
 
-### **Pivot table**
+## **Pivot table**
 - It is same as,
     - crosstab & groupby in pandas
     - table & matrix in PowerBI
@@ -175,7 +179,7 @@
     3. averageif()
     4. if()
 
-### **Data Tansformation**
+## **Data Tansformation**
 1. **vlookup()**
     - It is used to add/join one column from one table to another table with reference to one common column between them.
     - syntax, **vlookup(lookup_value, table_array, col_index_no., match_mode)**
@@ -201,7 +205,9 @@
     - match mode = same as vlookup()
 - we have to lock 'lookup_range' and 'result_range'
 
-### **Data Visulisation**
+3. we can also use **excel power query** inside data tab to merge/join two tables.
+
+## **Data Visulisation**
 - For creating plots we always require 'pivot table' first, because they do summarization for column that are required for plots.
 - Then from 'insert tab' we choose plots for that specific pivort table and apply formating on plot.
 
