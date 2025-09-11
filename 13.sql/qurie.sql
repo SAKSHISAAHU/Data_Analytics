@@ -1,0 +1,2 @@
+CREATE DATABASE ex_1;
+USE ex_1;
