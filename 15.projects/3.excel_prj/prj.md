@@ -1,6 +1,6 @@
 # **Business Transcation Analysis**
-- **Business Problem :** 
-    - We have to do 'Analytical Report' for, Business sales transcation of a company.
+- **Business Problem:** 
+    - We have to make 'Analytical Report' for, Business sales transcation of a company.
 
 - **Data Nomenclature :**
     1. **Transaction_ID** → Unique ID for each sale.
