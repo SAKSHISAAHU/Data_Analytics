@@ -1,4 +1,4 @@
-# **Business Transcation Analysis**
+# **BUSINESS TRANSACTIONS ANALYSIS**
 - **Business Problem:** 
     - We have to make 'Analytical Report' for, Business sales transcation of a company.
 
@@ -15,32 +15,3 @@
     10. **Customer_Segment** → Type of customer (SMB = Small/Medium Business, B2B = Business-to-Business, B2C = Business-to-Consumer, Enterprise).
     11. **Payment_Method** → How customer paid (Cash, Bank Transfer, Credit Card).
     12. **Discount** → Discount given on that transaction.
-
-# **Data Analysis Process**
-## **EXTRACT**
-- As, the data is already in excel we dont need to extract it.
-- **Data Understanding :**
-    - the data have 2000 records and 12 columns
-
-- **Data exploration :**
-    - there are,
-        - 1 time-series col
-        - 5 continous col
-        - 6 categorical col
-    - unique value in categorical col,
-        - category = 5
-        - region = 5
-        - department = 6
-        - product_line = 5
-        - customer_segment = 4
-        - payment_method = 4
-    - there is no missing value -- if present it would be visible when we check unique value for each column as 'blank' named option.
-    - no wrong data
-    - no wrong datatype
-    - no duplicated records
-    - no outliers
-
-## **TRANSFORM**
-
-
-## **LOAD**
